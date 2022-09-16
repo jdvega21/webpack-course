@@ -1,0 +1,18 @@
+//install babel (allow js run on every browser)
+npm i babel-loader @babel/core @babel/preset-env @babel/plugin-transform-runtime -D
+
+
+//html plugin
+npm i html-webpack-plugin -D
+
+//CSS plugin
+npm i mini-css-extract-plugin css-loader -D
+//Preprocessor Stylus
+npm i stylus stylus-loader -D
+
+//move resources from folders (ex SRC) to dist
+npm i copy-webpack-plugin -D
+
+
+//font 
+npm install url-loader file-loader -D
