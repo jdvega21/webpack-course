@@ -16,3 +16,23 @@ npm i copy-webpack-plugin -D
 
 //font 
 npm install url-loader file-loader -D
+
+
+//minimizer
+npm i css-minimizer-webpack-plugin terser-webpack-plugin -D
+
+//Clean the project
+npm i clean-webpack-plugin -D
+
+//**REMOVING+REBUILD Dist*
+rm -rf dist && npm run build
+
+
+//Global var
+npm i dotenv-webpack -D
+
+/
+Hola, por si alguien tiene el mismo problema: al abrir con live server la web se quedó de repente en blanco: en la consola tenía el mensaje de error: “Access to fetch … has been blocked by CORS policy: No ‘Access-Control-Allow-Origin’ header is present on the requested resource. If an opaque response serves your needs, set the request’s mode to ‘no-cors’ to fetch the resource with CORS disabled.”.
+
+El cambio a https://randomuser.me/api/ solucionó el problema 😃
+/
